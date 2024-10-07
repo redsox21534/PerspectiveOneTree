@@ -2,10 +2,10 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: #e0f7fa; /* Light blue background */
 }
 header {
-    background-color: #4CAF50;
+    background-color: #0288d1; /* Dark blue */
     color: white;
     text-align: center;
     padding: 20px;
@@ -23,6 +23,25 @@ section {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #0288d1; /* Dark blue */
     color: white;
 }
+button {
+    background-color: #0288d1; /* Button in blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0277bd; /* Darker blue when hovering */
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #0288d1;
+    border-radius: 5px;
+}
+
